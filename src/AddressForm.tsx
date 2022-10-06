@@ -1,7 +1,8 @@
+import { FormWrapper } from "./FormWrapper";
 
 export function AddressForm() {
   return (
-    <>
+    <FormWrapper title="Address">
       <label>Street</label>
       <input autoFocus required type="text" />
       <label>City</label>
@@ -10,6 +11,6 @@ export function AddressForm() {
       <input required type="text" />
       <label>Zip</label>
       <input required type="text" />
-    </>
+    </FormWrapper>
   );
 }
